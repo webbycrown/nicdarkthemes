@@ -1,6 +1,6 @@
 import { Header } from './my_components/Header';
 import { Part_a } from './my_components/Part_a';
-import { Part_b } from './my_components/Part_b';
+import Part_b from './my_components/Part_b';
 import { Part_c } from './my_components/Part_c';
 
 function App() {

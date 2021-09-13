@@ -1,0 +1,23 @@
+
+.nd_booking_bg_greydark, #nd_booking_slider_range .ui-slider-range, #nd_booking_slider_range .ui-slider-handle, .ui-tooltip.nd_booking_tooltip_jquery_content, .ui-datepicker{
+        background-color: #fff;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+        background-color: #f2f2f2;
+        color: #000
+}
+.nd_booking_bg_greydark_2, .ui-datepicker .ui-datepicker-header {
+  background-color: #fff;
+}
+  form .ui-datepicker-inline{
+    color: #000;
+  }
+  .ui-datepicker .ui-datepicker-title,
+  .ui-datepicker td span, .ui-datepicker td a{
+    color: #000;
+  }
+
+  .ui-datepicker td{
+    color: #000;
+  }
+
