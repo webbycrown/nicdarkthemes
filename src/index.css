@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+    .btn {
+        @apply py-4 sm:py-4 px-10 leading-snug uppercase font-roboto font-semibold text-center inline-block text-11sm tracking-widest focus:outline-none;
+    }
+    .btn-primary {
+        @apply bg-theme text-white hover:bg-dark hover:text-white;
+    }
+    
+    *:focus, div:focus, a:focus, button:focus{
+        outline: none;
+    }
+    .home-hiro-slider .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background-color: #fff;
+    }
+    .home-hiro-slider .swiper-pagination-bullet{
+        background-color: rgba(255, 255, 255, 0.5);
+        opacity: 1;
+        width: 10px;
+        height: 10px;
+        border-radius: 0;
+        margin: 0 10px !important;
+    }
+
+    .nd_booking_bg_greydark, #nd_booking_slider_range .ui-slider-range, #nd_booking_slider_range .ui-slider-handle, .ui-tooltip.nd_booking_tooltip_jquery_content, .ui-datepicker, .ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+        background-color: #1c1c1d;
+    }
+    .nd_booking_bg_greydark_2, .ui-datepicker .ui-datepicker-header {
+      background-color: #151516;
+  }
+  form .ui-datepicker-inline{
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .ui-datepicker td span, .ui-datepicker td a{
+    color: #fff;
+  }
+  .ui-datepicker td{
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+  }
+    @media (max-width: 991px) {
+        
+    }
+    @media (min-width: 767px) {
+        .main-menu{
+            @apply block !important;
+        }
+        
+    }
+    @media (max-width: 767px) {
+        
+        .toggle-menu.menu-active span:nth-of-type(1){
+            @apply transform rotate-45 mt-3 bg-white;
+        }
+        .toggle-menu.menu-active span:nth-of-type(2){
+            @apply hidden;
+        }
+        .toggle-menu.menu-active span:nth-of-type(3){
+            @apply  transform -rotate-45 mt-45rem bg-white;
+        }
+       
+    }
+    
+}
